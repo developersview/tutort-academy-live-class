@@ -18,7 +18,9 @@ public class TwoSum {
         System.out.println(Arrays.toString(
                 findTwoSumElements(new int[]{2, 7, 15, 11}, 9))
         );
-        System.out.println(findAllPossibleAnswers(new int[]{3, 2, 4, 5, 6, 7, 3, 3}, 6));
+        System.out.println(
+                findAllPossibleAnswers(new int[]{3, 2, 4, 5, 6, 7, 3, 3}, 6)
+        );
     }
 
     static int[] findTwoSumElements(int[] nums, int target) {
