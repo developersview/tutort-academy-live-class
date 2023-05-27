@@ -4,9 +4,9 @@
  */
 public class MajorityElement {
     public static void main(String[] args) {
-       // System.out.println(findMajorityElement(new int[]{1, 2, 3, 2, 4, 2, 2}));
-       // System.out.println(findMajorityElement(new int[]{4, 4, 2, 4, 3, 4, 4, 3, 2, 4}));
-        System.out.println(findMajorityElement(new int[]{1,3,3,3,4,4}));
+        // System.out.println(findMajorityElement(new int[]{1, 2, 3, 2, 4, 2, 2}));
+        // System.out.println(findMajorityElement(new int[]{4, 4, 2, 4, 3, 4, 4, 3, 2, 4}));
+        System.out.println(findMajorityElement(new int[]{1, 3, 3, 3, 4, 4}));
     }
 
     //TC -> O(n) and SC -> O(1)
