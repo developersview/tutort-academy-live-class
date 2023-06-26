@@ -9,7 +9,6 @@ public class MergeSort {
         int arr[] = {12, 11, 13, 5, 6, 7};
         sort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
-        ;
     }
 
     static void sort(int[] arr, int left, int right) {
